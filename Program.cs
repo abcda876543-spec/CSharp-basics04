@@ -31,6 +31,9 @@ namespace C__Basics04
             string result = "Book:" + title + "pages:" + pages;
 
             #endregion
+            #region Question 6
+            Console.WriteLine($"Book:{ title},pages: { pages}"); 
+            #endregion
         }
     }
 }
