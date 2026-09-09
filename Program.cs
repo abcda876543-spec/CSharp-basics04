@@ -103,6 +103,13 @@ namespace C__Basics04
             }
             while (j < 3);
             #endregion
+            #region Question 15
+
+            foreach (string book in books)
+            {
+                Console.WriteLine(book);
+            }
+            #endregion
         }
     }
 }
