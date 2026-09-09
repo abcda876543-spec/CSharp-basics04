@@ -37,6 +37,18 @@ namespace C__Basics04
             #region Question 7
             Console.WriteLine(string.Format("Book: {0}, pages:{1}", title, pages));
             #endregion
+
+            #region Question 8
+            if (pages > 300)
+            {
+                Console.WriteLine("Long Book");
+            }
+            else
+            {
+                Console.WriteLine("Short Book");
+
+            }
+            #endregion
         }
     }
 }
