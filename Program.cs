@@ -26,6 +26,11 @@ namespace C__Basics04
             sb.Replace("Book List", "Library");
             Console.WriteLine(sb);
             #endregion
+            #region Question 5
+            int pages = 464;
+            string result = "Book:" + title + "pages:" + pages;
+
+            #endregion
         }
     }
 }
