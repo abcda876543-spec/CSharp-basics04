@@ -72,6 +72,9 @@ namespace C__Basics04
 
             }
             #endregion
+            #region Question 11
+            string sizeLabel = pages > 300 ? "Long Book" : "Short Book";
+            #endregion
         }
     }
 }
