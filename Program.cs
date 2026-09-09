@@ -83,6 +83,16 @@ namespace C__Basics04
                 Console.WriteLine($"{i + 1}. {books[i]}");
             }
             #endregion
+            #region Question 13
+
+            int x = 0;
+
+            while (x < books.Length)
+            {
+                Console.WriteLine(books[x]);
+                x++;
+            }
+            #endregion
         }
     }
 }
