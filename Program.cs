@@ -22,7 +22,10 @@ namespace C__Basics04
             sb.Append("- Update");
             Console.WriteLine(sb);
             #endregion
-
+            #region Question 4 
+            sb.Replace("Book List", "Library");
+            Console.WriteLine(sb);
+            #endregion
         }
     }
 }
