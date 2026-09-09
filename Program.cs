@@ -56,6 +56,22 @@ namespace C__Basics04
                 Console.WriteLine("You can borrow this book");
             }
             #endregion
+            #region Question 10 
+            string bookTitle = "Refactoring";
+            switch (bookTitle)
+            {
+                case "Clean Code":
+                    Console.WriteLine("Great choice!");
+                    break;
+                case "Refactoring":
+                    Console.WriteLine("Nice Pick!");
+                    break;
+                default: 
+                    Console.WriteLine("Never heard of it");
+                    break;
+
+            }
+            #endregion
         }
     }
 }
