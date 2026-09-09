@@ -133,6 +133,16 @@ namespace C__Basics04
                 Console.WriteLine(book);
             }
             #endregion
+            #region Question 18
+           
+                if (books.Length == 0)
+                {
+                    return;
+                }
+
+                Console.WriteLine(books[0]);
+            
+            #endregion
 
         }
     }
