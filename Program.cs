@@ -49,6 +49,13 @@ namespace C__Basics04
 
             }
             #endregion
+            #region Question 9
+         bool isAvailable = true;
+            if(pages>300 && isAvailable == true)
+            {
+                Console.WriteLine("You can borrow this book");
+            }
+            #endregion
         }
     }
 }
