@@ -32,7 +32,10 @@ namespace C__Basics04
 
             #endregion
             #region Question 6
-            Console.WriteLine($"Book:{ title},pages: { pages}"); 
+            Console.WriteLine($"Book:{ title},pages: { pages}");
+            #endregion
+            #region Question 7
+            Console.WriteLine(string.Format("Book: {0}, pages:{1}", title, pages));
             #endregion
         }
     }
